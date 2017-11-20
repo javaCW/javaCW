@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300" prefWidth="500" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainEnterController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="150.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ComboBox layoutX="175.0" layoutY="180.0" prefWidth="150.0" promptText="Select movie" />
+      <DatePicker layoutX="163.0" layoutY="218.0" promptText="Select Date" />
+      <ComboBox layoutX="175.0" layoutY="252.0" prefWidth="150.0" promptText="Select Time" />
+      <Button fx:id="btnCustToTicketBooking" layoutX="381.0" layoutY="252.0" mnemonicParsing="false" onAction="#signUpTransition" text="Proceed" />
+   </children>
+</AnchorPane>

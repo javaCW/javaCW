@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300" prefWidth="500" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainEnterController">
+      <Button fx:id="btnToBookingSummary" layoutX="416.0" layoutY="253.0" mnemonicParsing="false" onAction="#seatBookingTransition" prefHeight="27.0" prefWidth="70.0" text="Next" />
+      <Label layoutX="217.0" layoutY="25.0" text="Cinema Screen">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Button fx:id="btnGoBack" layoutX="14.0" layoutY="253.0" mnemonicParsing="false" onAction="#seatBookingTransition" prefHeight="27.0" prefWidth="70.0" text="Back" />
+      <Button layoutX="138.0" layoutY="74.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="S1" />
+      <Button layoutX="195.0" layoutY="74.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="S2" />
+      <Button layoutX="250.0" layoutY="74.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="S3" />
+      <Button layoutX="304.0" layoutY="74.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="S4" />
+      <Button layoutX="357.0" layoutY="74.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="S5" />
+      <Button layoutX="138.0" layoutY="137.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="G1" />
+      <Button layoutX="195.0" layoutY="137.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="G2" />
+      <Button layoutX="250.0" layoutY="137.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="G3" />
+      <Button layoutX="304.0" layoutY="137.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="G4" />
+      <Button layoutX="357.0" layoutY="137.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="G5" />
+      <Button layoutX="138.0" layoutY="201.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="P1" />
+      <Button layoutX="195.0" layoutY="201.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="P2" />
+      <Button layoutX="250.0" layoutY="201.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="P3" />
+      <Button layoutX="304.0" layoutY="201.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="P4" />
+      <Button layoutX="357.0" layoutY="201.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="41.0" text="P5" />
+      <Label layoutX="24.0" layoutY="79.0" prefHeight="17.0" prefWidth="70.0" text="Silver" />
+      <Label layoutX="24.0" layoutY="142.0" prefHeight="17.0" prefWidth="70.0" text="Gold" />
+      <Label layoutX="24.0" layoutY="206.0" prefHeight="17.0" prefWidth="70.0" text="Platinum" />
+</AnchorPane>

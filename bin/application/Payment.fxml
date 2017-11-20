@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300" prefWidth="500" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainEnterController">
+   <children>
+      <DatePicker layoutX="163.0" layoutY="227.0" promptText="Expiry Date" />
+      <ComboBox layoutX="163.0" layoutY="74.0" prefHeight="26.0" prefWidth="174.0" promptText="Select Payment Method" />
+      <Label layoutX="227.0" layoutY="28.0" text="Payment" />
+      <TextField layoutX="176.0" layoutY="118.0" promptText="Name On Card" />
+      <TextField layoutX="176.0" layoutY="157.0" promptText="Card Number" />
+      <TextField layoutX="176.0" layoutY="191.0" promptText="CVV Number" />
+      <Button fx:id="btnToConfirmPayment" layoutX="196.0" layoutY="260.0" mnemonicParsing="false" onAction="#paymentTransition" text="Confirm Payment" />
+      <Button fx:id="btnGoBack" layoutX="28.0" layoutY="260.0" mnemonicParsing="false" onAction="#paymentTransition" text="Back" />
+   </children>
+</AnchorPane>
